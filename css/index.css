@@ -62,7 +62,7 @@
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: #1b47a9;
+    background-color: #1447AB;
   }
     * {
         margin: 0;
@@ -95,7 +95,7 @@
     color: #101127;
   }
   a:hover {
-      /*color: #1b47a9;*/
+      /*color: #1447AB;*/
   }
   /* Theme All Transitions
   ------------------------------- */
@@ -139,7 +139,7 @@
   
     a:hover {
         text-decoration: none;
-        color: #1b47a9;
+        color: #1447AB;
     }
     ::-moz-selection {
         /* background-color: #feb6c3; */
@@ -246,12 +246,12 @@
   }
   
   .border-pink, .bride-groom-social a:hover, .friend-social a:hover{
-      border-color: #1b47a9;
+      border-color: #1447AB;
   }
   
   .bg-pink,.album, .rsvp-submit-button > button, .footer-about form button, .footer-widget h4::after, .widget h4.widget-title:after, .mean-container a.meanmenu-reveal span,
   .wedding_slide_nav span, .error-page-area .btn.section-button, .contact-form-button button:hover, .widget-popular-tags ul li a:hover, .widget-search form button:hover{
-      background-color: #1b47a9;
+      background-color: #1447AB;
   }
   
   .color-pink,
@@ -260,7 +260,7 @@
   .blog-page-area .card:hover a .card-title, #content .share-box a > span.active,  #content .share-box a:hover,  #content .share-box > button:hover, #content .author-social a:hover, .reply-btn:hover,
   .leave-comment-area form label > span, .widget-categories ul li a, .widget-recent-posts ul li a p:hover, .widget-recent-posts ul li a p> span, .friend-says-img span i
   {
-      color: #1b47a9;
+      color: #1447AB;
   }
   
   .footer-default-font-color, .footer-upper-area, .footer-about p, .footer-widget ul li a, .copyright, .footer-about p, .footer-about form .form-control, .footer-recent-posts li a p{
@@ -404,8 +404,8 @@
       -webkit-transition: .8s;
   }
   .btn.section-button:hover{
-      box-shadow: 0 0 0 2px #fff inset, 0 0 0 2px #1b47a9;
-      -webkit-box-shadow: 0 0 0 2px #fff inset, 0 0 0 2px #1b47a9;
+      box-shadow: 0 0 0 2px #fff inset, 0 0 0 2px #1447AB;
+      -webkit-box-shadow: 0 0 0 2px #fff inset, 0 0 0 2px #1447AB;
   }
   
     /*Round Button Effect End*/
@@ -447,7 +447,7 @@
     text-transform: uppercase;
     color: #fff;
     border: 0;
-    background-color: #1b47a9;
+    background-color: #1447AB;
   }
     #mainNav .navbar-nav .nav-item .nav-link {
         font-size: 15px;
@@ -478,7 +478,7 @@
   .gallery-filter-btn label.active::after, .gallery-filter-btn label:hover::after{
       width: 60%;
       opacity: 1;
-      background: #1b47a9;
+      background: #1447AB;
   }
   
   /*---- Dropdown Menu CSS ----*/
@@ -506,7 +506,7 @@
         display: flex;
     }
     #mainNav .navbar-nav .dropdown-menu a:hover {
-        background-color: #1b47a9;
+        background-color: #1447AB;
         color: #fff;
     }
   @media (min-width: 992px) {
@@ -552,7 +552,7 @@
         background-color: #101127;
     }
     .mean-container .mean-nav ul li:hover {
-        background-color: #1b47a9;
+        background-color: #1447AB;
     }
     .mean-container .mean-nav ul li a {
         color: #fff;
@@ -684,7 +684,7 @@
       margin: 0 10px;
       height: 100px;
       width: 100px;
-      color: #1b47a9;
+      color: #1447AB;
       border: 3px solid #fff;
       border-radius: 55px;
       font-size: 40px;
@@ -756,8 +756,8 @@
       margin-right: 8px;
       cursor: pointer;
       display: inline-block;
-      border: 1px solid #1b47a9;
-      color: #1b47a9;
+      border: 1px solid #1447AB;
+      color: #1447AB;
   }
   /*Bride Groom Border Style*/
   .bride-border-box span {
@@ -777,14 +777,14 @@
       top: 0;
       border-top: 5px solid;
       border-right: 5px solid;
-      border-color: #1b47a9;
+      border-color: #1447AB;
   }
   .bride-border-box span:nth-child(2) {
       right: 0;
       bottom: 0;
       border-bottom: 5px solid;
       border-right: 5px solid;
-      border-color: #1b47a9;
+      border-color: #1447AB;
   }
   
   .bride-border-box span:nth-child(3) {
@@ -792,14 +792,14 @@
       bottom: 0;
       border-bottom: 5px solid;
       border-left: 5px solid;
-      border-color: #1b47a9;
+      border-color: #1447AB;
   }
   .bride-border-box span:nth-child(4) {
       left: 0;
       top: 0;
       border-top: 5px solid;
       border-left: 5px solid;
-      border-color: #1b47a9;
+      border-color: #1447AB;
   }
   
   /*--------Bride Groom Divider------*/
@@ -850,7 +850,7 @@
       margin: 16px 0;
   }
   .story-text h2{
-      color: #1b47a9;
+      color: #1447AB;
       font-size: 70px;
   }
   .love-story-area .story-divider-img img{
@@ -909,7 +909,7 @@
       position: relative;
       z-index: 9;
       padding-top:20px;
-      color: #1b47a9;
+      color: #1447AB;
   }
   .story-box.story-left {
       padding: 0 8px 60px 0;
@@ -1075,7 +1075,7 @@
       margin: 10px 0 0;
   }
   .album,.rsvp-submit-button button:hover {
-      background-color: #1b47a9;
+      background-color: #1447AB;
   }
   /*-------9.1 RSVP Page Area CSS-------*/
   .rsvp-area.rsvp-page-area {
@@ -1113,7 +1113,7 @@
       color: #fff;
   }
   .flaticon-unlink-1:hover {
-      /*color: #1b47a9;*/
+      /*color: #1447AB;*/
   }
   /*----Image Roation CSS----*/
   .single-friend {
@@ -1386,7 +1386,7 @@
       font-size: 0;
   }
   .see-location-btn {
-      background-color: #1b47a9;
+      background-color: #1447AB;
       color: #fff;
       font-size: 14px;
       font-weight: bold;
@@ -1398,7 +1398,7 @@
   }
   .see-location-btn:hover{
       background-color: white;
-      border: 1px solid #1b47a9;
+      border: 1px solid #1447AB;
   }
   .date .divider{
       border-bottom:solid 2px #f9667e;
@@ -1914,7 +1914,7 @@
   
   .locations-page-area .flaticon-telephone::before, .locations-page-area .flaticon-at:before, .locations-page-area .flaticon-placeholder-3:before {
       font-size: 33px;
-      color: #1b47a9;
+      color: #1447AB;
   }
   .locations-page-area .address-box .right-part {
       padding-left: 20px;
@@ -2048,7 +2048,7 @@
     }
     .blog-page-area nav .page-link.active {
         font-size: 16px;
-        border: 1px solid #1b47a9;
+        border: 1px solid #1447AB;
     }
     .blog-page-area nav ul li:first-child .page-link , .blog-page-area nav ul li:last-child .page-link {
         border: none;
@@ -2108,7 +2108,7 @@
     }
   #content blockquote {
       padding: 22px 60px 22px 60px;
-      border-left: 5px solid #1b47a9;
+      border-left: 5px solid #1447AB;
       margin: 5% 0;
   }
   #content .block-1 blockquote p {
@@ -2632,7 +2632,7 @@
         }
         .dash {
           color: #fff;
-          background-color: #1b47a9;
+          background-color: #1447AB;
       }
   
         /*Friends Area*/
@@ -3357,7 +3357,7 @@
     }
       .header-caption-heading{font-size:35px;}
   }
-  .wish-box{overflow-y: auto;height: 390px;background-color: rgb(255 255 255 / 70%);margin: 0.5rem 0;border: 5px solid #1b47a9;color: #333;}
+  .wish-box{overflow-y: auto;height: 390px;background-color: rgb(255 255 255 / 70%);margin: 0.5rem 0;border: 5px solid #1447AB;color: #333;}
   .wish-box::-webkit-scrollbar {width: 8px;}
   .wish-box::-webkit-scrollbar-thumb {background-color: #999;-webkit-border-radius: 0;-moz-border-radius: 0;-o-border-radius: 0;-ms-border-radius: 0;border-radius: 0;}
   .wish-box .wish-box-item{padding: 10px;}
@@ -3436,7 +3436,7 @@
       font-family: 'Playball', cursive;
   }
   a.text-logo i{
-      color: #1b47a9;
+      color: #1447AB;
       margin: 0 5px 0 13px;
   }
   a.text-logo h1{
@@ -3466,7 +3466,9 @@
   @media (max-width: 1024px) {
     .header-content-float-img{left:15px!important;top: -425%!important;width:85%!important;}
   }
-  .menu-section-area li a{font-weight:600;}
+  .menu-section-area li a{font-weight:bold;
+    font-size: large;
+}
   @media (max-width: 991px) {
     body{
         /*padding-top:50px;*/
@@ -3515,13 +3517,13 @@
   }
   .donate-modal strong, .donate-modal h3{font-family:inherit!important;}
   .donate-modal-close {color: white;float: right;font-size: 28px;font-weight: bold;text-decoration: none;cursor: pointer;}
-  .donate-modal-header {padding: 8px 16px;background-color: #1b47a9;color: #fff;font-size:30px;text-align:center;line-height: 40px;}
+  .donate-modal-header {padding: 8px 16px;background-color: #1447AB;color: #fff;font-size:30px;text-align:center;line-height: 40px;}
   .donate-modal-header strong{display:flex;align-items:center;justify-content: center;flex-wrap: wrap;color:#fff;}
   
   .donate-modal-header strong span{margin-left:10px;}
   .donate-modal-body {padding: 0 15px;}
   .donate-box{display: flex;justify-content: space-evenly;flex-wrap: wrap;}
-  .donate-box .donate-card{width: calc(50% - 40px);margin: 20px;padding: 20px;border: 3px solid #1b47a9;border-radius: 10px;}
+  .donate-box .donate-card{width: calc(50% - 40px);margin: 20px;padding: 20px;border: 3px solid #1447AB;border-radius: 10px;}
   .donate-box .donate-card:hover{box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
   .donate-box .donate-card h3{padding:0;margin:0;margin-bottom: 20px;font-weight: bold;font-size: 18px;line-height: 30px;}
   .donate-box .donate-card p {margin: 10px 0!important;font-size: 16px;}
@@ -3530,7 +3532,7 @@
     .donate-box .donate-card{width:100%;margin: 20px 5px;}
   }
   .donate-box .donate-card {position:relative;}
-  .donate-box .cryptos-box {border-top: 1px solid #1b47a9;margin-top: 25px;}
+  .donate-box .cryptos-box {border-top: 1px solid #1447AB;margin-top: 25px;}
   .donate-box .cryptos-box h4 {margin: 0;margin-top: 20px;text-align: center;}
   .donate-box .cryptos-box .cryptos-items {display: flex;flex-wrap: wrap;justify-content: center;margin-right: -10px;margin-left: -10px;margin-top: 10px;}
   .donate-box .cryptos-box .cryptos-items .crypto-item {padding:10px 10px 0;}
@@ -3541,7 +3543,7 @@
   .donate-box .cryptos-box-view h5 .coin-img {margin-right: 5px;}
   .donate-box .cryptos-box-view h5 .coin-id {margin-left: 5px;}
   .donate-box .cryptos-box-view .coin-address {display: block;padding: 10px;background: #ffe2e4;margin-bottom: 15px;word-break: break-word;color: #201f1f;}
-  .donate-box .cryptos-box-view .cryptos-box-view-close {margin-top: 15px;background: #1b47a9;color: #fff;padding: 5px 15px;border-radius: 5px;border: 1px solid #e3252d;}
+  .donate-box .cryptos-box-view .cryptos-box-view-close {margin-top: 15px;background: #1447AB;color: #fff;padding: 5px 15px;border-radius: 5px;border: 1px solid #e3252d;}
   .donate-box .cryptos-box-view .cryptos-box-view-close:hover{background: #e3252d;}
   .section-accessibilities{background: #e5e6e0;padding:0;}
   .section-accessibilities .btn-container{margin-top: 20px;margin-bottom: 30px;}
