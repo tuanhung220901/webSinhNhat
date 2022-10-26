@@ -2304,7 +2304,7 @@
   
     @media only screen and (max-width: 1775px) {
         .header-caption p {
-            font-size: 25px;
+            /* font-size: 25px; */
         }
     }
   
@@ -2317,12 +2317,12 @@
           width: 80%;
       }
       .header-caption-heading {
-          font-size: 41px;
-          line-height: 42px;
+          /* font-size: 41px;
+          line-height: 42px; */
           padding: 0 0 0;
       }
       .header-content h3 {
-          font-size: 26px;
+          /* font-size: 26px; */
       }
   }
   
