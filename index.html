@@ -303,7 +303,7 @@
                     <figure class="story-photo-box position-relative">
                         <img src="./static/img/MIN00133.JPG" alt="gallery" class="img-fluid w-100 d-block">
                         <figcaption>
-                            <a class="btn btn-sm venobox" data-gall="myGallery" href="./static/img/MIN00133.JPG">
+                            <a classgửi lời chú="btn btn-sm venobox" data-gall="myGallery" href="./static/img/MIN00133.JPG">
                                 <i class="flaticon-plus-symbol"></i>
                             </a>
                         </figcaption>
@@ -351,7 +351,7 @@
                         <div class="col-lg-4 col-6 bottom-margin shuffle-item" data-groups="[&quot;bride&quot;,&quot;groom&quot;]">
                 <div class="gallery-box position-relative hover-wrapper">
                     <figure class="story-photo-box position-relative">
-                        <img src="./static/img/MIN00365.JPG" alt="gallery" class="img-fluid w-100 d-block">
+                     gửi lời chú   <img src="./static/img/MIN00365.JPG" alt="gallery" class="img-fluid w-100 d-block">
                         <figcaption>
                             <a class="btn btn-sm venobox" data-gall="myGallery" href="./static/img/MIN00365.JPG">
                                 <i class="flaticon-plus-symbol"></i>
@@ -376,24 +376,24 @@
             <div class="col-12 col-lg-12 col-md-7">
             	<div class="wish-box-form">
 	            	
-	                <form id="wish-form" class="form validate-rsvp-form mt-4" method="post">
+	                <form id="wish-form" class="form validate-rsvp-form mt-4" method="POST">
 	                    <div class="row">
 	                        <div class="col-12 col-sm-6">
 	                            <div class="form-group">
-	                                <input type="text" name="name" class="form-control" placeholder="Nhập họ tên*">
+	                                <input type="text" name="Name" class="form-control" placeholder="Nhập họ tên*" id="nameHome">
 	                            </div>
 	                        </div>
 	                        <div class="col-12 col-sm-6">
 	                            <div class="form-group">
-	                                <input type="email" name="email" class="form-control" placeholder="Nhập email">
+	                                <input type="email" name="Email" class="form-control" placeholder="Nhập email" id="emailHome">
 	                            </div>
 	                        </div>
 	                        <div class="col-12 col-sm-12">
-	                            <div class="form-group nessage-text">
-	                                <textarea class="form-control" name="content" placeholder="Nhập lời chúc của bạn*"></textarea>
-	                            </div>
+	                             <div class="form-group nessage-text">
+	                                <textarea class="form-control" name="LoiChuc" placeholder="Nhập lời chúc của bạn*" id="loiChucHome"></textarea>
+	                            </div> 
 	                            <div class="rsvp-submit-button text-center">
-	                                <button  type="submit" class="btn section-button text-uppercase">Gửi lời chúc</button>
+	                                <button  type="submit" class="btn section-button text-uppercase" id="submit-form">Gửi lời chúc</button>
 	                            </div>
 	                        </div>
 	                    </div>
@@ -464,9 +464,48 @@
     const biicore = {themeRoot:'https://mS', webroot : 'https://manhkienchuhuong.iwedding.info', coreSite: 'https:/', webToken: '', bgMusic: 'https3'};
 </script> -->
 <script src="https://manhkienchuhuong.iwedding.info/templates/template5/js/jquery-plugin-collection.js?v=20221015"></script>
-<script src="https://manhkienchuhuong.iwedding.info/templates/template5/js/script.js?v=20221015"></script>
+<!-- <script src="https://manhkienchuhuong.iwedding.info/templates/template5/js/script.js?v=20221015"></script> -->
 <script src="https://manhkienchuhuong.iwedding.info/common/bii.js?v=20221015"></script>
+<script>
+        
+        const check = () =>{
+            if( $('#nameHome').val() &&  $('#emailHome').val() && $('#loiChucHome').val())
+                return true
+            return false
+        }
+  var $form = $('form#wish-form'),
+    url = 'https://script.google.com/macros/s/AKfycbxq1islBp7uOOKR6O69rtfoAmc-YVLrGOlK8l5CuL_sO9DLkAqgdx7HzJZPfKXgF4tkug/exec'
 
+    $('#submit-form').on('click', function(e) {
+        e.preventDefault();
+        // console.log(checkMail());
+        // let Error = "";
+        // if(!checkPhone()){
+        //     Error += "Please re-enter your phone number\n"
+        // }
+        // if(!checkMail()){
+        //     Error += "Please re-enter your email\n"
+        // }
+        if(check()){
+            var jqxhr = $.ajax({
+                url: url,
+                method: "POST",
+                dataType: "json",
+                data: $form.serialize()
+            }).success(
+                $('#nameHome').val(''),
+                $('#emailHome').val(''),
+                $('#loiChucHome').val(''),
+                alert("Cảm ơn bạn đã gửi lời chúc. Chúc bạn một ngày tốt lành!")
+            )
+        }
+    
+        if(!check()){
+            alert("Bạn vui lòng điền đầy đủ thông tin trước khi gửi")
+        }
+    }) 
+
+</script>
 </body>
 
 
